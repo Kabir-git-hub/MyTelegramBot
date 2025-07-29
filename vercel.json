@@ -1,0 +1,16 @@
+{
+  "crons": [
+    {
+      "path": "/api/syncTasks",
+      "schedule": "0 */1 * * *" // প্রতি 1 ঘন্টায় syncTasks চালাবে (প্রতি ঘণ্টার 0 মিনিটে)
+    },
+    {
+      "path": "/api/autoFillStatus",
+      "schedule": "*/15 * * * *" // প্রতি 15 মিনিটে autoFillStatus চালাবে
+    },
+    {
+      "path": "/api/saveDailyTotal",
+      "schedule": "0 0 * * *" // প্রতিদিন মধ্যরাতে (00:00 UTC) saveDailyTotal চালাবে
+    }
+  ]
+}
