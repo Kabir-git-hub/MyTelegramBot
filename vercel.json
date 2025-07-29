@@ -1,12 +1,1 @@
-{
-  "crons": [
-    {
-      "path": "/api/syncTasks",
-      "schedule": "0 0 * * *" // প্রতিদিন মধ্যরাতে (00:00 UTC) চলবে
-    },
-    {
-      "path": "/api/autoFillStatus",
-      "schedule": "0 1 * * *" // প্রতিদিন রাত 1 টায় (01:00 UTC) চলবে
-    }
-  ]
-}
+{}
