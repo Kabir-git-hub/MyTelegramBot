@@ -2,15 +2,15 @@
   "crons": [
     {
       "path": "/api/syncTasks",
-      "schedule": "0 */1 * * *" 
+      "schedule": "0 0 * * *" // প্রতিদিন মধ্যরাতে (00:00 UTC) চলবে
     },
     {
       "path": "/api/autoFillStatus",
-      "schedule": "*/15 * * * *" 
+      "schedule": "0 1 * * *" // প্রতিদিন রাত 1 টায় (01:00 UTC) চলবে
     },
     {
       "path": "/api/saveDailyTotal",
-      "schedule": "0 0 * * *" 
+      "schedule": "0 2 * * *" // প্রতিদিন রাত 2 টায় (02:00 UTC) চলবে
     }
   ]
 }
